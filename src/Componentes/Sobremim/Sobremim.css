@@ -1,0 +1,87 @@
+body{
+  background-color:#f8f8f8;
+}
+.box-altoretrato{
+    background-color: #f8f8f8;
+    display: flex;
+}
+.box-altoretrato .altoretrato{
+    width: 30%;
+    padding: 2%;
+    border-radius: 20% 20% 20% 20%;
+    position: relative;
+    left: 60%;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-color: white;
+}
+
+.altoretrato:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.box-altoretrato h1{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    width: 200%;
+    right: 90%;
+    transition: all 0.5s;
+}
+
+h1:hover{
+    color: rgb(225, 112, 182);
+    transform: scale(1.2);
+}
+
+.box-altoretrato p{
+    font-size: 30px;
+    text-align: center;
+    top: 170px;
+    position: relative;
+    right: 80%;
+    width: 100% ;
+    transition: all 0.8s;
+}
+
+p:hover{
+    color: rgb(161, 26, 176);
+    transform: scale(1.2);
+}
+
+
+   
+    
+
+@media screen and (max-width: 426px){ 
+
+
+    .box-altoretrato{
+        background-color: #f8f8f8;
+        display: flex;
+    }
+
+    .box-altoretrato h1{
+        font-size: 20px;
+        position: relative;
+        top: 1px;
+        
+    }
+    .box-altoretrato p{
+        font-size: 9px;
+        position: relative; 
+        top: 38px;
+        right: 50%;
+        width: 250px;
+    }
+   
+    .box-altoretrato .altoretrato{
+        position: relative;
+        width: 50%;
+        height: 93px;
+        left: 74%;
+    }
+}
+

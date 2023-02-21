@@ -1,0 +1,113 @@
+.foto{
+    display:inline-flex;
+}
+
+.foto img{
+    width: 30%;
+    padding: 2%;
+    border-radius: 20% 20% 20% 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: relative;
+    left: 60%;
+    display: flex;
+    bottom: 40px;
+   
+}
+
+.foto img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.foto p{
+    font-size: 30px;
+    width: 150%;
+    transition: all 0.8s;
+    position: relative;
+    top: 60px;
+    right: 50%;
+    display: flex;
+}
+
+
+.foto p:hover{
+    color:  rgb(225, 112, 182);
+    transform: scale(1.2);
+}
+
+.foto h1{
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+    right: 30%;
+    transition: all 0.8s;
+    bottom: 30px;
+}
+
+
+.foto h1:hover{
+    color:  rgb(225, 112, 182);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+@media screen and (max-device-width: 426px){ 
+    .foto{
+        display: flex;
+    }
+
+    .foto h1{
+        font-size: 3vw;
+        top: 50px;
+        width: 45%;
+        left: 5%;
+
+    }
+    .foto p{
+       font-size: 2vw;
+       width: 100%;
+       top: 80px;
+       right: 25%;
+    }
+   
+    .foto img{
+        width: 30%;
+        height:0%;
+        left: 33%;
+        bottom: 65px;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1134px) {
+
+    .foto{
+        display: flex;
+    }
+
+    .foto h1{
+        font-size: 3vw;
+        top: 0;
+        width: 45%;
+        right: 14%;
+
+    }
+    .foto p{
+       font-size: 2vw;
+       width: 100%;
+       right: 45%;
+    }
+   
+    .foto img{
+        width: 30%;
+        height:0%;
+        
+    }
+
+}

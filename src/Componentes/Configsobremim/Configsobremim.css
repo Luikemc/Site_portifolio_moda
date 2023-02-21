@@ -1,0 +1,24 @@
+.sobremim{
+    text-align: center;
+    padding: 32px;
+}
+
+.sobremim h5{
+    font-size: 70px;
+    display: inline;
+    padding-bottom: 8px;
+    transition: all 0.5s;  
+}
+
+h5:hover{
+    color:  rgb(225, 112, 182);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.sobremim .sobree{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

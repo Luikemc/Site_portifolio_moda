@@ -1,0 +1,24 @@
+.projetos{
+    text-align: center;
+    padding: 32px;
+}
+
+.projetos h3{
+    font-size: 50px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    transition: all 0.5s;
+}
+
+h3:hover{
+    color:  rgb(225, 112, 182);
+    transform: scale(1.2);
+}
+
+.projetos .projetinhos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
